@@ -25,14 +25,8 @@ print(z)
 print(x)
 print(c)
 
-12311
-
-ou = 173
-print(ou)
-12311
-
-ou = 173
-print(ou)
-
-ou = 173
-43456
+z, x, *c = [11, 22, 33]
+print(z, x, c)
+print(z)
+print(x)
+print(c)
