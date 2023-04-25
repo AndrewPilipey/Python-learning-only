@@ -39,3 +39,5 @@ print(ou)
 
 ou = 173
 print(ou)
+ou = 173
+print(ou)
