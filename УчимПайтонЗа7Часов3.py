@@ -28,3 +28,4 @@ print(100/x)
 
 if not 1 == 0 and not 1 == 2:
     print("1 != 0")
+
