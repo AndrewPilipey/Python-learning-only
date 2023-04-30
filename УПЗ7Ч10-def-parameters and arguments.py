@@ -12,3 +12,5 @@ def count_list(par, par2 = False, count = 0): #parametr
 
 j = [9, 8, 7, 6]
 print(count_list(j, True, count=-1)) #argument
+
+
