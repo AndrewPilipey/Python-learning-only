@@ -117,3 +117,4 @@ print("Для числа", current_number, "предыдущее число:", c
 price_1, price_2, price_3, price_4 = int(input()), int(input()), int(input()), int(input())
 total = (price_1 + price_2 + price_3 + price_4) * 3
 print(total)
+
