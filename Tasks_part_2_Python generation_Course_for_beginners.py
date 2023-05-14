@@ -1,7 +1,7 @@
 # Арифметические операции
 # Напишите программу, в которой вычисляется сумма, разность и произведение
 # двух целых чисел, введенных с клавиатуры.
-#
+# 
 # Формат входных данных
 # На вход программе подаётся два целых
 # числа, каждое на отдельной строке.
@@ -36,3 +36,27 @@ print(a_n)
 #next_task
 o = int(input())
 print(o, o * 2, o * 3, o * 4, o * 5, sep='---')
+
+next_task
+b_1 = int(input())
+q = int(input())
+n = int(input())
+print(b_1 * q ** (n - 1))
+
+next_task
+centimeters = int(input())
+meters = centimeters // 100
+print(meters)
+
+next_task
+students = int(input())
+mandarins = int(input())
+
+print(mandarins // students)
+print(mandarins % students)
+
+next_task
+population_of_universe = int(input())
+print((population_of_universe // 2) + (population_of_universe % 2))
+
+next_task
