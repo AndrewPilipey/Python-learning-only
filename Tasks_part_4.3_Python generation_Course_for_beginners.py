@@ -33,7 +33,7 @@ elif month in (4, 6, 9, 11):
 else:
     print(28)
 
-#next_task
+# #next_task
 weight_category = int(input())
 if weight_category < 60:
     print("Легкий вес")
@@ -42,7 +42,7 @@ elif 60 <= weight_category < 64:
 elif 64 <= weight_category < 69:
     print("Полусредний вес")
 
-#next_task
+# #next_task
 number_1 = int(input())
 number_2 = int(input())
 sign = input()
@@ -75,3 +75,51 @@ else:
     print("ошибка цвета") #некорректное решение через in. Понял это потом.
                         #Корректно решать через оператор сравнения ==.
 
+
+# #next_task
+roulette_number = int(input())
+if roulette_number == 0:
+    print("зеленый")
+elif 1 <= roulette_number <= 10 and roulette_number % 2 != 0:
+    print("красный")
+elif 1 <= roulette_number <= 10 and roulette_number % 2 == 0:
+    print("черный")
+elif 11 <= roulette_number <= 18 and  roulette_number % 2 != 0:
+    print("черный")
+elif 11 <= roulette_number <= 18 and  roulette_number % 2 == 0:
+    print("красный")
+elif 19 <= roulette_number <= 28 and roulette_number % 2 != 0:
+    print("красный")
+elif 19 <= roulette_number <= 28 and roulette_number % 2 == 0:
+    print("черный")
+elif 29 <= roulette_number <= 36 and roulette_number % 2 != 0:
+    print("черный")
+elif 29 <= roulette_number <= 36 and roulette_number % 2 == 0:
+    print("красный")
+else:
+    print("ошибка ввода")
+
+#next_task
+a_1 = int(input())
+b_1 = int(input())
+a_2 = int(input())
+b_2 = int(input())
+if a_1 < b_1 and a_2 < b_2:
+    if a_2 < b_1 and a_2 < a_1 and a_1 < b_2 and b_2 < b_1 and a_1 < b_1 and a_2 < b_2:
+        print(a_1, b_2)
+    elif b_2 < a_1:
+        print("пустое множество")
+    elif a_2 < a_1 and a_1 == b_2 and a_1 < b_1 and b_2 < b_1:
+        print(a_1)
+    elif b_2 < b_1:
+        print(a_2, b_2)
+    elif a_2 < b_1 and a_1 < b_2 and b_1 < b_2 and a_2 < a_1:
+        print(a_1, b_1)
+    elif a_2 < b_1 and a_1 < b_2 and b_1 == b_2 and a_2 < a_1:
+        print(a_1, b_2)
+    elif a_2 < b_1:
+        print(a_2, b_1)
+    elif (a_1 < a_2 and b_1 < b_2) and b_1 != a_2:
+        print("пустое множество")
+    elif a_2 == b_1:
+        print(a_2) #некрасивое решение на мой взгляд

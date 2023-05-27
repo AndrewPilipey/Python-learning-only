@@ -1,3 +1,2 @@
-print ('test')
-print ('test')
-print ('test')
+x = 0b11110 #binary (двоичная). Пишем 0b и далее в двоичной
+print(int(x))
