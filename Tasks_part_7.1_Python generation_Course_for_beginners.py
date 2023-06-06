@@ -39,3 +39,13 @@ for i in range(num + 1):
 
 
 #next_task
+katet = int(input())
+for i in range(katet):
+    print("*" * (katet - i))
+
+
+#next_task
+m, p, n = int(input()), int(input()), int(input())
+for i in range(n):
+    print(i + 1, m)
+    m = m + (m * p / 100)
